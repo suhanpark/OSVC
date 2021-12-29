@@ -23,7 +23,7 @@
 <details>
 <summary>Project Mindmap</summary>
     
-# <h2 align = "center" >OSVC project structure![primary mind map]()![Project midmap](https://user-images.githubusercontent.com/44104676/147620750-14179644-6db5-4c4d-afba-afd41257c829.png)
+# <h2 align = "center" >OSVC project structure![Project midmap](https://user-images.githubusercontent.com/44104676/147620750-14179644-6db5-4c4d-afba-afd41257c829.png)
 </h3>
 
 
