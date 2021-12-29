@@ -75,17 +75,20 @@ while True:
 
     # DRAW LINES
 
-    cv2.line(roi, (0, 420), (960, 420), (0, 0, 255), 2)
-    cv2.line(roi, (0, 440), (960, 440), (0, 0, 255), 2)
+    x1, x2, y1, y2 = tracker.x_limit[0],tracker.x_limit[1], tracker.y_limit[0], tracker.x_limit[1]
 
-    cv2.line(roi, (0, 285), (960, 285), (0, 0, 255), 2)
-    cv2.line(roi, (0, 305), (960, 305), (0, 0, 255), 2)
+    cv2.line(roi, (0, 420), (850, 420), (0, 0, 255), 2)
+    cv2.line(roi, (0, 440), (850, 440), (0, 0, 255), 2)
+
+    cv2.line(roi, (0, 285), (920, 355), (0, 0, 255), 2)
+    cv2.line(roi, (0, 305), (920, 375), (0, 0, 255), 2)
 
 
     #DISPLAY
     cv2.imshow("Mask",mask2)
     cv2.imshow("Erode", e_img)
     cv2.imshow("ROI", roi)
+    cv2.imshow("Frame", frame)
 
     key = cv2.waitKey(w-10)
     if key & 0xFF == ord('q'):

@@ -9,6 +9,8 @@ file = open("Traffic Record/SpeedRecord.txt","w")
 file.write("ID \t SPEED\n------\t-------\n")
 file.close()
 
+y_limit = []
+x_limit = []
 
 class EuclideanDistTracker:
     def __init__(self):
